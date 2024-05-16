@@ -1,0 +1,60 @@
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font: 40px;
+    color: #fff700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.blog h2{
+    font: 200;
+    color: #fff700;
+    margin-bottom: 70px;
+    font-size: 70px;
+}
+
+body{
+    background-image: url(img/treroe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+.title{
+    color: rgba(247, 247, 4, 0.798);    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p{
+  
+    color: rgb(255, 255, 255);
+    padding:0 125px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    font-size: 25px;
+
+}

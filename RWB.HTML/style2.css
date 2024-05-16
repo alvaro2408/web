@@ -1,0 +1,284 @@
+body{
+    background-image: url(img/uidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+.h3{
+    background-color: blueviolet;
+
+}
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font: 25px;
+    color: #323337;
+}
+
+.title{
+   margin-bottom: 70px;
+    font-size: 80px;
+    font-weight: 600;
+    color: rgba(41, 58, 0, 0.798);    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.p{
+   
+    color: rgb(244, 244, 240);
+    padding:0 110px;
+    font-family: cursive;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: rgb(221, 214, 11);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: rgb(40, 2, 65);
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.navbar{
+    display: block;
+    padding: 20px 20px;
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.navbar a:hover{
+    background: rgb(42, 4, 80);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header{
+    height: 65vh !important;
+    background-color: black;
+    background-size: cover;
+    
+    
+
+}
+
+
+.title{
+   
+    text-transform: uppercase;
+    color: rgba(247, 247, 4, 0.798);    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    margin-bottom: 70px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    padding:0 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rebeccapurple;
+    color: white;
+    text-decoration: none;
+    background: rgb(230, 218, 1);
+
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: url(img/1t.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    
+}
+.box-container .box{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: rgb(10, 10, 10);
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: rgb(110, 226, 43);
+
+}
+
+ .box-container .box p{
+    font-size: 16px;
+    padding: 0 15px;
+ }
+
+ 
+ .about{
+    background: url(img/1R.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+
+
+ }
+
+ .price{
+    background-color: rgb(67, 2, 2);
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    
+ }
+
+
+@media  (max-width: 770px) {
+   
+    .title{
+        margin-bottom: 0;
+        font-size: 50px;
+
+    }
+
+    .sau{
+        height: 130vh;
+
+    }
+
+    .navbar{
+        display: none;
+
+
+
+    }
+
+    body{
+        background-image: url(img/IMAGEN2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+}
+
+
+
+
